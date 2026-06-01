@@ -47,7 +47,7 @@ export function Navbar({ title = "Set Title Here", about = "About" }) {
                 </NavLink>
               </li>
             </ul>
-            <form className="d-flex">
+            {/* <form className="d-flex">
               <input
                 className="form-control me-2"
                 type="search"
@@ -57,7 +57,7 @@ export function Navbar({ title = "Set Title Here", about = "About" }) {
               <button className="btn btn-outline-success" type="submit">
                 Search
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
       </nav>
